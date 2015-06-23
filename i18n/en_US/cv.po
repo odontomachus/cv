@@ -1,0 +1,59 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Jonathan Villemaire-Krajden <j.villemaire.krajden@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-17 15:40-0400\n"
+"PO-Revision-Date: 2015-06-08 12:43-0400\n"
+"Last-Translator: Jonathan Villemaire-Krajden <j.villemaire.krajden@gmail."
+"com>\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: html/cv.html:5
+msgid "html.title"
+msgstr "Resume"
+
+#: html/cv.html:38
+msgid "cv.education"
+msgstr "Education"
+
+#: html/cv.html:42
+msgid "cv.education.mcgill"
+msgstr "McGill University"
+
+#: html/cv.html:46
+msgid "cv.education.bsc"
+msgstr "Bachelor of Science"
+
+#: html/cv.html:49
+msgid "cv.education.major"
+msgstr "Joint Major of Physics and Computer Science"
+
+#: html/cv.html:55
+msgid "cv.education.champlain"
+msgstr "Champlain College"
+
+#: html/cv.html:59
+msgid "cv.education.dec"
+msgstr "DEC in Science"
+
+#: html/cv.html:62
+msgid "cv.education.ib"
+msgstr "International Baccalaureate in Science"
+
+#: html/cv.html:69
+msgid "cv.experience"
+msgstr "Experience"
+
+#: html/cv.html:72
+msgid "cv.consulting.title"
+msgstr "Web Developer"

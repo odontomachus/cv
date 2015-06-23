@@ -1,0 +1,59 @@
+# French translations for PACKAGE package
+# Traductions françaises du paquet PACKAGE.
+# Copyright (C) 2015 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Jonathan Villemaire-Krajden <odontomachus@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-18 15:56-0400\n"
+"PO-Revision-Date: 2015-06-18 15:57-0400\n"
+"Last-Translator: Jonathan Villemaire-Krajden <odontomachus@gmail.com>\n"
+"Language-Team: French\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: html/cv.html:5
+msgid "html.title"
+msgstr ""
+
+#: html/cv.html:38
+msgid "cv.education"
+msgstr ""
+
+#: html/cv.html:42
+msgid "cv.education.mcgill"
+msgstr ""
+
+#: html/cv.html:46
+msgid "cv.education.bsc"
+msgstr ""
+
+#: html/cv.html:49
+msgid "cv.education.major"
+msgstr ""
+
+#: html/cv.html:55
+msgid "cv.education.champlain"
+msgstr ""
+
+#: html/cv.html:59
+msgid "cv.education.dec"
+msgstr ""
+
+#: html/cv.html:62
+msgid "cv.education.ib"
+msgstr ""
+
+#: html/cv.html:69
+msgid "cv.experience"
+msgstr ""
+
+#: html/cv.html:72
+msgid "cv.consulting.web"
+msgstr ""
