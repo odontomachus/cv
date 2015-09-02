@@ -7,7 +7,7 @@ from jinja2 import (
     FileSystemLoader,
     )
 
-loader = FileSystemLoader(searchpath='html')
+loader = FileSystemLoader(searchpath='tpl')
 env = Environment(loader=loader, extensions=['jinja2.ext.i18n'])
 
 def render(lang):

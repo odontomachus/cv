@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-17 15:40-0400\n"
+"POT-Creation-Date: 2015-09-02 16:36-0400\n"
 "PO-Revision-Date: 2015-06-08 12:43-0400\n"
 "Last-Translator: Jonathan Villemaire-Krajden <j.villemaire.krajden@gmail."
 "com>\n"
@@ -18,42 +18,185 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: html/cv.html:5
+#: tpl/cv.html:5
 msgid "html.title"
 msgstr "Resume"
 
-#: html/cv.html:38
-msgid "cv.education"
-msgstr "Education"
+#: tpl/cv.html:28
+msgid "cv.private.address"
+msgstr ""
 
-#: html/cv.html:42
-msgid "cv.education.mcgill"
-msgstr "McGill University"
+#: tpl/cv.html:29
+msgid "cv.private.phone"
+msgstr ""
 
-#: html/cv.html:46
-msgid "cv.education.bsc"
-msgstr "Bachelor of Science"
+#: tpl/cv.html:32
+msgid "cv.personal.city"
+msgstr "Montreal, Canada"
 
-#: html/cv.html:49
-msgid "cv.education.major"
-msgstr "Joint Major of Physics and Computer Science"
+#: tpl/cv.html:38
+msgid "cv.interests"
+msgstr "Interests"
 
-#: html/cv.html:55
-msgid "cv.education.champlain"
-msgstr "Champlain College"
+#: tpl/cv.html:41
+msgid "content.intro"
+msgstr ""
+"Scientific computing, web development, natural language processing, "
+"computations, the Internet of Things, security, performance."
 
-#: html/cv.html:59
-msgid "cv.education.dec"
-msgstr "DEC in Science"
-
-#: html/cv.html:62
-msgid "cv.education.ib"
-msgstr "International Baccalaureate in Science"
-
-#: html/cv.html:69
+#: tpl/cv.html:47
 msgid "cv.experience"
 msgstr "Experience"
 
-#: html/cv.html:72
+#: tpl/cv.html:51
+msgid "cv.clac.sysadmin.title"
+msgstr "System administrator"
+
+#: tpl/cv.html:55
+msgid "cv.clac"
+msgstr "Computational Linguistics at Concordia Lab"
+
+#: tpl/cv.html:58 tpl/cv.html:75 tpl/cv.html:92 tpl/cv.html:111
+msgid "cv.experience.key.responsibilities"
+msgstr "Key responsibilities:"
+
+#: tpl/cv.html:60
+msgid "cv.clac.sysadmin.manage-computers"
+msgstr "Manage desktops, servers and compute nodes."
+
+#: tpl/cv.html:61
+msgid "cv.clac.sysadmin.help-students"
+msgstr "Help students with technical issues."
+
+#: tpl/cv.html:68
+msgid "cv.pod.title"
+msgstr "Programmer on duty, COMP 6751, Natural Language Analysis"
+
+#: tpl/cv.html:72
+msgid "cv.concordia."
+msgstr "Concordia University"
+
+#: tpl/cv.html:77
+msgid "cv.pod.responsibilities.help-students"
+msgstr "Help students with their assignments."
+
+#: tpl/cv.html:84
 msgid "cv.consulting.title"
 msgstr "Web Developer"
+
+#: tpl/cv.html:88
+msgid "cv.consulting.palm"
+msgstr "PALM+Havas"
+
+#: tpl/cv.html:94
+msgid "cv.consulting.palm.back-end"
+msgstr "Design and implement a back-end for a client website."
+
+#: tpl/cv.html:95
+msgid "cv.consulting.palm.maintain"
+msgstr "Maintain multiple websites."
+
+#: tpl/cv.html:96
+msgid "cv.consulting.palm.api"
+msgstr "Build APIs for internal services."
+
+#: tpl/cv.html:103
+msgid "cv.ew.title"
+msgstr "Web developer"
+
+#: tpl/cv.html:107
+msgid "cv.ew"
+msgstr "Evolving Web Inc."
+
+#: tpl/cv.html:113
+msgid "cv.ew.experience.drupal"
+msgstr "Develop Drupal modules."
+
+#: tpl/cv.html:114
+msgid "cv.ew.experience.cloud"
+msgstr "Deploy and maintain websites on cloud servers and dedicated hardware."
+
+#: tpl/cv.html:115
+msgid "cv.ew.experience.high-availability"
+msgstr "Design a high-availability infrastructure for websites."
+
+#: tpl/cv.html:125
+msgid "cv.education"
+msgstr "Education"
+
+#: tpl/cv.html:129
+msgid "cv.education.mcgill"
+msgstr "McGill University"
+
+#: tpl/cv.html:133
+msgid "cv.education.bsc"
+msgstr "Bachelor of Science"
+
+#: tpl/cv.html:136
+msgid "cv.education.major"
+msgstr "Joint Major of Physics and Computer Science"
+
+#: tpl/cv.html:142
+msgid "cv.education.champlain"
+msgstr "Champlain College"
+
+#: tpl/cv.html:146
+msgid "cv.education.dec"
+msgstr "DEC in Science"
+
+#: tpl/cv.html:149
+msgid "cv.education.ib"
+msgstr "International Baccalaureate in Science"
+
+#: tpl/cv.html:157
+msgid "cv.computer"
+msgstr "Technical skills"
+
+#: tpl/cv.html:162
+msgid "cv.computer.language"
+msgstr "Programming languages:"
+
+#: tpl/cv.html:163
+msgid "cv.computer.languages"
+msgstr "Python, Java, C, PHP, Javascript, SQL, Bash, Go (basic), C++ (basic)"
+
+#: tpl/cv.html:164
+msgid "cv.computer.web-framework"
+msgstr "Web frameworks:"
+
+#: tpl/cv.html:165
+msgid "cv.computer.web-frameworks"
+msgstr "Tornado, Pyramid, Kohana, Drupal, AngularJS"
+
+#: tpl/cv.html:166
+msgid "cv.computer.os"
+msgstr "OS:"
+
+#: tpl/cv.html:167
+msgid "cv.computer.os-list"
+msgstr "Linux (Debian, Fedora, Ubuntu, Archlinux)"
+
+#: tpl/cv.html:168
+msgid "cv.computer.sysadmin"
+msgstr "System tools:"
+
+#: tpl/cv.html:169
+msgid "cv.computer.sysadmin-tools"
+msgstr ""
+"Ansible, Chef, Rackspace Cloud API, LAMP stack, iptables, NGINX, Nagios"
+
+#: tpl/cv.html:170
+msgid "cv.computer.version-control"
+msgstr "Version control:"
+
+#: tpl/cv.html:171
+msgid "cv.computer.version-controls"
+msgstr "git, mercurial, subversion, cvs"
+
+#: tpl/cv.html:180
+msgid "cv.language"
+msgstr "Language"
+
+#: tpl/cv.html:184
+msgid "cv.languages"
+msgstr "English and French fluently spoken and written."

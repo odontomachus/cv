@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-18 16:41-0400\n"
+"POT-Creation-Date: 2015-09-02 18:18-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,42 +17,182 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: html/cv.html:5
+#: tpl/cv.html:5
 msgid "html.title"
 msgstr ""
 
-#: html/cv.html:38
-msgid "cv.education"
+#: tpl/cv.html:28
+msgid "cv.private.address"
 msgstr ""
 
-#: html/cv.html:42
-msgid "cv.education.mcgill"
+#: tpl/cv.html:29
+msgid "cv.private.phone"
 msgstr ""
 
-#: html/cv.html:46
-msgid "cv.education.bsc"
+#: tpl/cv.html:32
+msgid "cv.personal.city"
 msgstr ""
 
-#: html/cv.html:49
-msgid "cv.education.major"
+#: tpl/cv.html:38
+msgid "cv.interests"
 msgstr ""
 
-#: html/cv.html:55
-msgid "cv.education.champlain"
+#: tpl/cv.html:41
+msgid "content.intro"
 msgstr ""
 
-#: html/cv.html:59
-msgid "cv.education.dec"
-msgstr ""
-
-#: html/cv.html:62
-msgid "cv.education.ib"
-msgstr ""
-
-#: html/cv.html:69
+#: tpl/cv.html:47
 msgid "cv.experience"
 msgstr ""
 
-#: html/cv.html:72
-msgid "cv.consulting.web"
+#: tpl/cv.html:51
+msgid "cv.clac.sysadmin.title"
+msgstr ""
+
+#: tpl/cv.html:55
+msgid "cv.clac"
+msgstr ""
+
+#: tpl/cv.html:58 tpl/cv.html:75 tpl/cv.html:92 tpl/cv.html:111
+msgid "cv.experience.key.responsibilities"
+msgstr ""
+
+#: tpl/cv.html:60
+msgid "cv.clac.sysadmin.manage-computers"
+msgstr ""
+
+#: tpl/cv.html:61
+msgid "cv.clac.sysadmin.help-students"
+msgstr ""
+
+#: tpl/cv.html:68
+msgid "cv.pod.title"
+msgstr ""
+
+#: tpl/cv.html:72
+msgid "cv.concordia."
+msgstr ""
+
+#: tpl/cv.html:77
+msgid "cv.pod.responsibilities.help-students"
+msgstr ""
+
+#: tpl/cv.html:84
+msgid "cv.consulting.title"
+msgstr ""
+
+#: tpl/cv.html:88
+msgid "cv.consulting.palm"
+msgstr ""
+
+#: tpl/cv.html:94
+msgid "cv.consulting.palm.back-end"
+msgstr ""
+
+#: tpl/cv.html:95
+msgid "cv.consulting.palm.maintain"
+msgstr ""
+
+#: tpl/cv.html:96
+msgid "cv.consulting.palm.api"
+msgstr ""
+
+#: tpl/cv.html:103
+msgid "cv.ew.title"
+msgstr ""
+
+#: tpl/cv.html:107
+msgid "cv.ew"
+msgstr ""
+
+#: tpl/cv.html:113
+msgid "cv.ew.experience.drupal"
+msgstr ""
+
+#: tpl/cv.html:114
+msgid "cv.ew.experience.cloud"
+msgstr ""
+
+#: tpl/cv.html:115
+msgid "cv.ew.experience.high-availability"
+msgstr ""
+
+#: tpl/cv.html:125
+msgid "cv.education"
+msgstr ""
+
+#: tpl/cv.html:129
+msgid "cv.education.mcgill"
+msgstr ""
+
+#: tpl/cv.html:133
+msgid "cv.education.bsc"
+msgstr ""
+
+#: tpl/cv.html:136
+msgid "cv.education.major"
+msgstr ""
+
+#: tpl/cv.html:142
+msgid "cv.education.champlain"
+msgstr ""
+
+#: tpl/cv.html:146
+msgid "cv.education.dec"
+msgstr ""
+
+#: tpl/cv.html:149
+msgid "cv.education.ib"
+msgstr ""
+
+#: tpl/cv.html:157
+msgid "cv.computer"
+msgstr ""
+
+#: tpl/cv.html:162
+msgid "cv.computer.language"
+msgstr ""
+
+#: tpl/cv.html:163
+msgid "cv.computer.languages"
+msgstr ""
+
+#: tpl/cv.html:164
+msgid "cv.computer.web-framework"
+msgstr ""
+
+#: tpl/cv.html:165
+msgid "cv.computer.web-frameworks"
+msgstr ""
+
+#: tpl/cv.html:166
+msgid "cv.computer.os"
+msgstr ""
+
+#: tpl/cv.html:167
+msgid "cv.computer.os-list"
+msgstr ""
+
+#: tpl/cv.html:168
+msgid "cv.computer.sysadmin"
+msgstr ""
+
+#: tpl/cv.html:169
+msgid "cv.computer.sysadmin-tools"
+msgstr ""
+
+#: tpl/cv.html:170
+msgid "cv.computer.version-control"
+msgstr ""
+
+#: tpl/cv.html:171
+msgid "cv.computer.version-controls"
+msgstr ""
+
+#: tpl/cv.html:180
+msgid "cv.language"
+msgstr ""
+
+#: tpl/cv.html:184
+msgid "cv.languages"
 msgstr ""
