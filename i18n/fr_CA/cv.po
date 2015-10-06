@@ -40,7 +40,7 @@ msgstr "Intérêts"
 
 #: tpl/cv.html:41
 msgid "content.intro"
-msgstr "Calcul scientifique, apprentissage automatique, dévelopement Web, analyse du langage naturel, microprocesseurs et électronique, sécurité informatique."
+msgstr "Calcul scientifique, apprentissage automatique, développement Web, analyse du langage naturel, microprocesseurs et électronique, sécurité informatique."
 
 #: tpl/cv.html:47
 msgid "cv.experience"
