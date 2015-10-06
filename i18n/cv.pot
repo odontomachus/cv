@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-02 18:18-0400\n"
+"POT-Creation-Date: 2015-10-06 12:20-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,8 +69,8 @@ msgstr ""
 msgid "cv.pod.title"
 msgstr ""
 
-#: tpl/cv.html:72
-msgid "cv.concordia."
+#: tpl/cv.html:72 tpl/cv.html:155
+msgid "cv.concordia"
 msgstr ""
 
 #: tpl/cv.html:77
@@ -145,54 +145,82 @@ msgstr ""
 msgid "cv.education.ib"
 msgstr ""
 
-#: tpl/cv.html:157
-msgid "cv.computer"
-msgstr ""
-
-#: tpl/cv.html:162
-msgid "cv.computer.language"
-msgstr ""
-
-#: tpl/cv.html:163
-msgid "cv.computer.languages"
+#: tpl/cv.html:159
+msgid "cv.education.masters-courses"
 msgstr ""
 
 #: tpl/cv.html:164
-msgid "cv.computer.web-framework"
+msgid "cv.education.compiler-design"
 msgstr ""
 
 #: tpl/cv.html:165
-msgid "cv.computer.web-frameworks"
+msgid "cv.education.nlu"
 msgstr ""
 
 #: tpl/cv.html:166
-msgid "cv.computer.os"
+msgid "cv.education.statistical-nlp"
 msgstr ""
 
 #: tpl/cv.html:167
-msgid "cv.computer.os-list"
+msgid "cv.education.semantic-web"
 msgstr ""
 
-#: tpl/cv.html:168
-msgid "cv.computer.sysadmin"
+#: tpl/cv.html:176
+msgid "cv.computer"
 msgstr ""
 
-#: tpl/cv.html:169
-msgid "cv.computer.sysadmin-tools"
+#: tpl/cv.html:181
+msgid "cv.computer.language"
 msgstr ""
 
-#: tpl/cv.html:170
-msgid "cv.computer.version-control"
+#: tpl/cv.html:182
+msgid "cv.computer.languages"
 msgstr ""
 
-#: tpl/cv.html:171
-msgid "cv.computer.version-controls"
-msgstr ""
-
-#: tpl/cv.html:180
-msgid "cv.language"
+#: tpl/cv.html:183
+msgid "cv.computer.web-framework"
 msgstr ""
 
 #: tpl/cv.html:184
+msgid "cv.computer.web-frameworks"
+msgstr ""
+
+#: tpl/cv.html:185
+msgid "cv.computer.os"
+msgstr ""
+
+#: tpl/cv.html:186
+msgid "cv.computer.os-list"
+msgstr ""
+
+#: tpl/cv.html:187
+msgid "cv.computer.sysadmin"
+msgstr ""
+
+#: tpl/cv.html:188
+msgid "cv.computer.sysadmin-tools"
+msgstr ""
+
+#: tpl/cv.html:189
+msgid "cv.computer.version-control"
+msgstr ""
+
+#: tpl/cv.html:190
+msgid "cv.computer.version-controls"
+msgstr ""
+
+#: tpl/cv.html:199
+msgid "cv.language"
+msgstr ""
+
+#: tpl/cv.html:203
 msgid "cv.languages"
+msgstr ""
+
+#: tpl/cv.html:211
+msgid "cv.projects"
+msgstr ""
+
+#: tpl/cv.html:215
+msgid "cv.project-summary"
 msgstr ""

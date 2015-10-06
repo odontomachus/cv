@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-02 16:36-0400\n"
+"POT-Creation-Date: 2015-10-06 12:15-0400\n"
 "PO-Revision-Date: 2015-06-08 12:43-0400\n"
 "Last-Translator: Jonathan Villemaire-Krajden <j.villemaire.krajden@gmail."
 "com>\n"
@@ -41,8 +41,9 @@ msgstr "Interests"
 #: tpl/cv.html:41
 msgid "content.intro"
 msgstr ""
-"Scientific computing, web development, natural language processing, "
-"computations, the Internet of Things, security, performance."
+"Scientific computing, machine learning, web development, natural language "
+"processing, computations, microprocessors and electronics, security, "
+"performance."
 
 #: tpl/cv.html:47
 msgid "cv.experience"
@@ -72,8 +73,8 @@ msgstr "Help students with technical issues."
 msgid "cv.pod.title"
 msgstr "Programmer on duty, COMP 6751, Natural Language Analysis"
 
-#: tpl/cv.html:72
-msgid "cv.concordia."
+#: tpl/cv.html:72 tpl/cv.html:155
+msgid "cv.concordia"
 msgstr "Concordia University"
 
 #: tpl/cv.html:77
@@ -148,55 +149,83 @@ msgstr "DEC in Science"
 msgid "cv.education.ib"
 msgstr "International Baccalaureate in Science"
 
-#: tpl/cv.html:157
+#: tpl/cv.html:159
+msgid "cv.education.masters-courses"
+msgstr "Graduate coursework:"
+
+#: tpl/cv.html:164
+msgid "cv.education.compiler-design"
+msgstr "COMP 6421 Compiler Design"
+
+#: tpl/cv.html:165
+msgid "cv.education.nlu"
+msgstr "COMP 6751 Natural Language Analysis"
+
+#: tpl/cv.html:166
+msgid "cv.education.statistical-nlp"
+msgstr "COMP 6781 Statistical Natural Language Processing"
+
+#: tpl/cv.html:167
+msgid "cv.education.semantic-web"
+msgstr "SOEN 691B Semantic Web"
+
+#: tpl/cv.html:176
 msgid "cv.computer"
 msgstr "Technical skills"
 
-#: tpl/cv.html:162
+#: tpl/cv.html:181
 msgid "cv.computer.language"
 msgstr "Programming languages:"
 
-#: tpl/cv.html:163
+#: tpl/cv.html:182
 msgid "cv.computer.languages"
 msgstr "Python, Java, C, PHP, Javascript, SQL, Bash, Go (basic), C++ (basic)"
 
-#: tpl/cv.html:164
+#: tpl/cv.html:183
 msgid "cv.computer.web-framework"
 msgstr "Web frameworks:"
 
-#: tpl/cv.html:165
+#: tpl/cv.html:184
 msgid "cv.computer.web-frameworks"
-msgstr "Tornado, Pyramid, Kohana, Drupal, AngularJS"
+msgstr "Tornado, Pyramid, Kohana, Drupal, AngularJS, JQuery"
 
-#: tpl/cv.html:166
+#: tpl/cv.html:185
 msgid "cv.computer.os"
 msgstr "OS:"
 
-#: tpl/cv.html:167
+#: tpl/cv.html:186
 msgid "cv.computer.os-list"
-msgstr "Linux (Debian, Fedora, Ubuntu, Archlinux)"
+msgstr "Linux (Fedora, Ubuntu, Debian, Archlinux)"
 
-#: tpl/cv.html:168
+#: tpl/cv.html:187
 msgid "cv.computer.sysadmin"
 msgstr "System tools:"
 
-#: tpl/cv.html:169
+#: tpl/cv.html:188
 msgid "cv.computer.sysadmin-tools"
 msgstr ""
 "Ansible, Chef, Rackspace Cloud API, LAMP stack, iptables, NGINX, Nagios"
 
-#: tpl/cv.html:170
+#: tpl/cv.html:189
 msgid "cv.computer.version-control"
 msgstr "Version control:"
 
-#: tpl/cv.html:171
+#: tpl/cv.html:190
 msgid "cv.computer.version-controls"
 msgstr "git, mercurial, subversion, cvs"
 
-#: tpl/cv.html:180
+#: tpl/cv.html:199
 msgid "cv.language"
 msgstr "Language"
 
-#: tpl/cv.html:184
+#: tpl/cv.html:203
 msgid "cv.languages"
 msgstr "English and French fluently spoken and written."
+
+#: tpl/cv.html:211
+msgid "cv.projects"
+msgstr "Projects"
+
+#: tpl/cv.html:215
+msgid "cv.project-summary"
+msgstr "Find out about my projects and code on github: <a href=\"https://github.com/odontomachus/\">https://github.com/odontomachus/</a>."
