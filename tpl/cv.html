@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="{{ conf.lang }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ gettext('html.title') }}</title>
+  <meta name="description" content="Resume">
+  <meta name="author" content="Jonathan Villemaire-Krajden">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="/vendor/Skeleton/css/normalize.css">
+  <link rel="stylesheet" href="/vendor/Skeleton/css/skeleton.css">
+  <link rel="stylesheet" href="css/print.css"/>
+  <!-- <link rel="stylesheet" media="print" href="css/print.css"/> -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+
+</head>
+<body>
+  <div class="container">
+
+    <div class="section personal" id="personal">
+      <div class="row" >
+        <div class="five columns offset-by-one name">Jonathan Villemaire-Krajden</div>
+        <div class="four columns  u-pull-right right-align web"><a href="https://j-vk.com/">https://j-vk.com/</a></div>
+      </div>
+      <div class="row private">
+        <div class="five columns offset-by-one u-pull-right right-align phone"><a href="tel:{{ content.private.phone }}" class="phone">{{ gettext('cv.private.address') }}</a></div>
+        <div class="four columns  u-pull-right right-align phone"><a href="tel:{{ content.private.phone }}" class="phone">{{ gettext('cv.private.phone') }}</a></div>
+      </div>
+      <div class="row">
+        <div class="four columns offset-by-one city">{{ gettext('cv.personal.city') }}</div>
+        <div class="five columns  u-pull-right right-align email">j.villemaire.krajden@gmail.com</div>
+      </div>
+    </div>
+    
+    <div class="section interests">
+      <h3>{{ gettext('cv.interests') }}</h3>
+      <div class="row">
+        <div class="twelve columns">
+          {{ gettext('content.intro') }}
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="section">
+      <h3>{{ gettext('cv.experience') }}</h3>
+      <!-- consulting -->
+      <div class="item">
+        <div class="row">
+          <div class="eight columns title">{{ gettext('cv.clac.sysadmin.title') }}</div>
+          <div class="four columns u-pull-right right-align">2012&nbsp;-&nbsp;2015</div>
+        </div>
+        <div class="row">
+          <div class="eight columns employer">{{ gettext('cv.clac') }}</div>
+        </div>
+        <div class="row">
+          <div class="twelve columns"><span class="responsibilities">{{ gettext('cv.experience.key.responsibilities') }}</span>
+            <ul>
+              <li>{{ gettext('cv.clac.sysadmin.manage-computers') }}</li>
+              <li>{{ gettext('cv.clac.sysadmin.help-students') }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+          <div class="eight columns title">{{ gettext('cv.pod.title') }}</div>
+          <div class="four columns u-pull-right right-align">2014</div>
+        </div>
+        <div class="row">
+          <div class="eight columns employer">{{ gettext('cv.concordia') }}</div>
+        </div>
+        <div class="row">
+          <div class="twelve columns"><span class="responsibilities">{{ gettext('cv.experience.key.responsibilities') }}</span>
+            <ul>
+              <li>{{ gettext('cv.pod.responsibilities.help-students') }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+          <div class="eight columns title">{{ gettext('cv.consulting.title') }}</div>
+          <div class="four columns u-pull-right right-align">2012&nbsp;-&nbsp;2013</div>
+        </div>
+        <div class="row">
+          <div class="eight columns employer">{{ gettext('cv.consulting.palm') }}</div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <span class="responsibilities">{{ gettext('cv.experience.key.responsibilities') }}</span>
+            <ul>
+              <li>{{ gettext('cv.consulting.palm.back-end') }}</li>
+              <li>{{ gettext('cv.consulting.palm.maintain') }}</li>
+              <li>{{ gettext('cv.consulting.palm.api') }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
+          <div class="eight columns title">{{ gettext('cv.ew.title') }}</div>
+          <div class="four columns u-pull-right right-align">2009&nbsp;-&nbsp;2011</div>
+        </div>
+        <div class="row">
+          <div class="eight columns employer">{{ gettext('cv.ew') }}</div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <span class="responsibilities">{{ gettext('cv.experience.key.responsibilities') }}</span>
+            <ul>
+              <li>{{ gettext('cv.ew.experience.drupal') }}</li>
+              <li>{{ gettext('cv.ew.experience.cloud') }}</li>
+              <li>{{ gettext('cv.ew.experience.high-availability') }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End experience -->
+    
+    <!-- Education -->
+    <div class="section education">
+      <h3>{{ gettext('cv.education') }}</h3>
+      <!-- McGill -->
+      <div class="item">
+        <div class="row">
+          <div class="eight columns">{{ gettext('cv.education.mcgill') }}</div>
+          <div class="four columns u-pull-right right-align">2006&nbsp;-&nbsp;2010</div>
+        </div>
+        <div class="row">
+          <div class="eight columns">{{ gettext('cv.education.bsc') }}</div>
+        </div>
+        <div class="row">
+          <div class="eight columns">{{ gettext('cv.education.major') }}</div>
+        </div>
+      </div>
+      <!-- Champlain -->
+      <div class="item">
+        <div class="row">
+          <div class="eight columns">{{ gettext('cv.education.champlain') }}</div>
+          <div class="four columns u-pull-right right-align">2004&nbsp;-&nbsp;2006</div>
+        </div>
+        <div class="row">
+          <div class="eight columns">{{ gettext('cv.education.dec') }}</div>
+        </div>
+        <div class="row">
+          <div class="eight columns">{{ gettext('cv.education.ib') }}</div>
+        </div>
+      </div>
+      <!-- Concordia -->
+      <div class="item">
+        <div class="row">
+          <div class="eight columns">{{ gettext('cv.concordia') }}</div>
+          <div class="four columns u-pull-right right-align">2012&nbsp;-&nbsp;2013</div>
+        </div>
+        <div class="row">
+          <div class="eight columns">{{ gettext('cv.education.masters-courses') }}</div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <ul>
+              <li>{{ gettext('cv.education.compiler-design') }}</li>
+              <li>{{ gettext('cv.education.nlu') }}</li>
+              <li>{{ gettext('cv.education.statistical-nlp') }}</li>
+              <li>{{ gettext('cv.education.semantic-web') }}</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End education  -->
+
+    <!-- Technical skills -->
+    <div class="section skills">
+      <h3>{{ gettext('cv.computer') }}</h3>
+      <div class="item">
+        <div class="row">
+          <div class="twelve columns">
+            <dl>
+              <dt>{{ gettext('cv.computer.language') }}</dt>
+              <dd>{{ gettext('cv.computer.languages') }}</dd>
+              <dt>{{ gettext('cv.computer.web-framework') }}</dt>
+              <dd>{{ gettext('cv.computer.web-frameworks') }}</dd>
+              <dt>{{ gettext('cv.computer.os') }}</dt>
+              <dd>{{ gettext('cv.computer.os-list') }}</dd>
+              <dt>{{ gettext('cv.computer.sysadmin') }}</dt>
+              <dd>{{ gettext('cv.computer.sysadmin-tools') }}</dd>
+              <dt>{{ gettext('cv.computer.version-control') }}</dt>
+              <dd>{{ gettext('cv.computer.version-controls') }}</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- languages -->
+    <div class="section languages">
+      <h3>{{ gettext('cv.language') }}</h3>
+      <div class="item">
+        <div class="row">
+          <div class="twelve columns">
+            {{ gettext('cv.languages') }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- projects -->
+    <div class="section projects">
+      <h3>{{ gettext('cv.projects') }}</h3>
+      <div class="item">
+        <div class="row">
+          <div class="twelve columns">
+            {{ gettext('cv.project-summary') }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
