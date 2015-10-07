@@ -32,7 +32,7 @@ msgstr ""
 
 #: tpl/cv.html:32
 msgid "cv.personal.city"
-msgstr "Montréal"
+msgstr "Montréal, Québec, Canada"
 
 #: tpl/cv.html:38
 msgid "cv.interests"
