@@ -108,7 +108,7 @@ msgstr "Evolving Web"
 
 #: tpl/cv.html:113
 msgid "cv.ew.experience.drupal"
-msgstr "Développer de modules Drupal"
+msgstr "Développer des modules Drupal"
 
 #: tpl/cv.html:114
 msgid "cv.ew.experience.cloud"
