@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-06 13:21-0400\n"
+"POT-Creation-Date: 2016-01-20 10:24-0500\n"
 "PO-Revision-Date: 2015-06-08 12:43-0400\n"
 "Last-Translator: Jonathan Villemaire-Krajden <j.villemaire.krajden@gmail."
 "com>\n"
@@ -37,188 +37,212 @@ msgstr ""
 "processing, computations, microprocessors and electronics, security, "
 "performance."
 
-#: tpl/cv.html:43
+#: tpl/cv.html:43 tpl/cv.html:63
 msgid "cv.experience"
 msgstr "Experience"
 
 #: tpl/cv.html:47
-msgid "cv.clac.sysadmin.title"
-msgstr "System administrator"
+msgid "cv.canadavisa.developer.title"
+msgstr "Web developer"
+
+#: tpl/cv.html:48
+msgid "cv.current"
+msgstr "current"
 
 #: tpl/cv.html:51
-msgid "cv.clac"
-msgstr "Computational Linguistics at Concordia Lab"
+msgid "cv.canadavisa"
+msgstr "Campbell Cohen Immigration Services Inc."
 
-#: tpl/cv.html:54 tpl/cv.html:71 tpl/cv.html:88 tpl/cv.html:107
+#: tpl/cv.html:54 tpl/cv.html:74 tpl/cv.html:91 tpl/cv.html:108 tpl/cv.html:127
 msgid "cv.experience.key.responsibilities"
 msgstr "Key responsibilities:"
 
 #: tpl/cv.html:56
+msgid "cv.canadavisa.migrate"
+msgstr "Migrate web platform"
+
+#: tpl/cv.html:57
+msgid "cv.canadavisa.forum"
+msgstr "Design and implement new forum architecture for active forum."
+
+#: tpl/cv.html:58
+msgid "cv.canadavisa.leader"
+msgstr "Team leadership"
+
+#: tpl/cv.html:67
+msgid "cv.clac.sysadmin.title"
+msgstr "System administrator"
+
+#: tpl/cv.html:71
+msgid "cv.clac"
+msgstr "Computational Linguistics at Concordia Lab"
+
+#: tpl/cv.html:76
 msgid "cv.clac.sysadmin.manage-computers"
 msgstr "Manage desktops, servers and compute nodes."
 
-#: tpl/cv.html:57
+#: tpl/cv.html:77
 msgid "cv.clac.sysadmin.help-students"
 msgstr "Help students with technical issues."
 
-#: tpl/cv.html:64
+#: tpl/cv.html:84
 msgid "cv.pod.title"
 msgstr "Programmer on duty, COMP 6751, Natural Language Analysis"
 
-#: tpl/cv.html:68 tpl/cv.html:151
+#: tpl/cv.html:88 tpl/cv.html:171
 msgid "cv.concordia"
 msgstr "Concordia University"
 
-#: tpl/cv.html:73
+#: tpl/cv.html:93
 msgid "cv.pod.responsibilities.help-students"
 msgstr "Help students with their assignments."
 
-#: tpl/cv.html:80
+#: tpl/cv.html:100
 msgid "cv.consulting.title"
-msgstr "Web Developer"
+msgstr "Web developer"
 
-#: tpl/cv.html:84
+#: tpl/cv.html:104
 msgid "cv.consulting.palm"
 msgstr "PALM+Havas"
 
-#: tpl/cv.html:90
+#: tpl/cv.html:110
 msgid "cv.consulting.palm.back-end"
 msgstr "Design and implement a back-end for a client website."
 
-#: tpl/cv.html:91
+#: tpl/cv.html:111
 msgid "cv.consulting.palm.maintain"
 msgstr "Maintain multiple websites."
 
-#: tpl/cv.html:92
+#: tpl/cv.html:112
 msgid "cv.consulting.palm.api"
 msgstr "Build APIs for internal services."
 
-#: tpl/cv.html:99
+#: tpl/cv.html:119
 msgid "cv.ew.title"
 msgstr "Web developer"
 
-#: tpl/cv.html:103
+#: tpl/cv.html:123
 msgid "cv.ew"
 msgstr "Evolving Web Inc."
 
-#: tpl/cv.html:109
+#: tpl/cv.html:129
 msgid "cv.ew.experience.drupal"
 msgstr "Develop Drupal modules."
 
-#: tpl/cv.html:110
+#: tpl/cv.html:130
 msgid "cv.ew.experience.cloud"
 msgstr "Deploy and maintain websites on cloud servers and dedicated hardware."
 
-#: tpl/cv.html:111
+#: tpl/cv.html:131
 msgid "cv.ew.experience.high-availability"
 msgstr "Design a high-availability infrastructure for websites."
 
-#: tpl/cv.html:121
+#: tpl/cv.html:141
 msgid "cv.education"
 msgstr "Education"
 
-#: tpl/cv.html:125
+#: tpl/cv.html:145
 msgid "cv.education.mcgill"
 msgstr "McGill University"
 
-#: tpl/cv.html:129
+#: tpl/cv.html:149
 msgid "cv.education.bsc"
 msgstr "Bachelor of Science"
 
-#: tpl/cv.html:132
+#: tpl/cv.html:152
 msgid "cv.education.major"
 msgstr "Joint Major of Physics and Computer Science"
 
-#: tpl/cv.html:138
+#: tpl/cv.html:158
 msgid "cv.education.champlain"
 msgstr "Champlain College"
 
-#: tpl/cv.html:142
+#: tpl/cv.html:162
 msgid "cv.education.dec"
 msgstr "DEC in Science"
 
-#: tpl/cv.html:145
+#: tpl/cv.html:165
 msgid "cv.education.ib"
 msgstr "International Baccalaureate in Science"
 
-#: tpl/cv.html:155
+#: tpl/cv.html:175
 msgid "cv.education.masters-courses"
 msgstr "Graduate coursework:"
 
-#: tpl/cv.html:160
+#: tpl/cv.html:180
 msgid "cv.education.compiler-design"
 msgstr "COMP 6421 Compiler Design"
 
-#: tpl/cv.html:161
+#: tpl/cv.html:181
 msgid "cv.education.nlu"
 msgstr "COMP 6751 Natural Language Analysis"
 
-#: tpl/cv.html:162
+#: tpl/cv.html:182
 msgid "cv.education.statistical-nlp"
 msgstr "COMP 6781 Statistical Natural Language Processing"
 
-#: tpl/cv.html:163
+#: tpl/cv.html:183
 msgid "cv.education.semantic-web"
 msgstr "SOEN 691B Semantic Web"
 
-#: tpl/cv.html:172
+#: tpl/cv.html:192
 msgid "cv.computer"
 msgstr "Technical skills"
 
-#: tpl/cv.html:177
+#: tpl/cv.html:197
 msgid "cv.computer.language"
 msgstr "Programming languages:"
 
-#: tpl/cv.html:178
+#: tpl/cv.html:198
 msgid "cv.computer.languages"
 msgstr "Python, Java, C, PHP, Javascript, SQL, Bash, Go (basic), C++ (basic)"
 
-#: tpl/cv.html:179
+#: tpl/cv.html:199
 msgid "cv.computer.web-framework"
 msgstr "Web frameworks:"
 
-#: tpl/cv.html:180
+#: tpl/cv.html:200
 msgid "cv.computer.web-frameworks"
 msgstr "Tornado, Pyramid, Kohana, Drupal, AngularJS, JQuery"
 
-#: tpl/cv.html:181
+#: tpl/cv.html:201
 msgid "cv.computer.os"
 msgstr "OS:"
 
-#: tpl/cv.html:182
+#: tpl/cv.html:202
 msgid "cv.computer.os-list"
 msgstr "Linux (Fedora, Ubuntu, Debian, Archlinux)"
 
-#: tpl/cv.html:183
+#: tpl/cv.html:203
 msgid "cv.computer.sysadmin"
 msgstr "System tools:"
 
-#: tpl/cv.html:184
+#: tpl/cv.html:204
 msgid "cv.computer.sysadmin-tools"
 msgstr ""
 "Ansible, Chef, Rackspace Cloud API, LAMP stack, iptables, NGINX, Nagios"
 
-#: tpl/cv.html:185
+#: tpl/cv.html:205
 msgid "cv.computer.version-control"
 msgstr "Version control:"
 
-#: tpl/cv.html:186
+#: tpl/cv.html:206
 msgid "cv.computer.version-controls"
 msgstr "git, mercurial, subversion, cvs"
 
-#: tpl/cv.html:195
+#: tpl/cv.html:215
 msgid "cv.language"
 msgstr "Language"
 
-#: tpl/cv.html:199
+#: tpl/cv.html:219
 msgid "cv.languages"
 msgstr "English and French fluently spoken and written."
 
-#: tpl/cv.html:207
+#: tpl/cv.html:227
 msgid "cv.projects"
 msgstr "Projects"
 
-#: tpl/cv.html:211
+#: tpl/cv.html:231
 msgid "cv.project-summary"
 msgstr ""
 "Find out about my projects and code on github: <a href=\"https://github.com/"
