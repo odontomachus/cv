@@ -29,7 +29,7 @@
         <div class="five columns  u-pull-right right-align email">j.villemaire.krajden@gmail.com</div>
       </div>
     </div>
-    
+
     <div class="section interests">
       <h3>{{ gettext('cv.interests') }}</h3>
       <div class="row">
@@ -43,8 +43,26 @@
       <h3>{{ gettext('cv.experience') }}</h3>
       <div class="item">
         <div class="row">
+          <div class="eight columns title">{{ gettext('cv.foodie.sre.title') }}</div>
+          <div class="four columns u-pull-right right-align">2016&nbsp;-&nbsp;{{ gettext('cv.current') }}</div>
+        </div>
+        <div class="row">
+          <div class="eight columns employer">{{ gettext('cv.foodie') }}</div>
+        </div>
+        <div class="row">
+          <div class="twelve columns"><span class="responsibilities">{{ gettext('cv.experience.key.responsibilities') }}</span>
+            <ul>
+              <li>{{ gettext('cv.foodie.platform') }}</li>
+              <li>{{ gettext('cv.foodie.architecture') }}</li>
+              <li>{{ gettext('cv.foodie.development') }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="row">
           <div class="eight columns title">{{ gettext('cv.canadavisa.developer.title') }}</div>
-          <div class="four columns u-pull-right right-align">2015&nbsp;-&nbsp;{{ gettext('cv.current') }}</div>
+          <div class="four columns u-pull-right right-align">2015&nbsp;-&nbsp;2016</div>
         </div>
         <div class="row">
           <div class="eight columns employer">{{ gettext('cv.canadavisa') }}</div>
@@ -132,7 +150,7 @@
       </div>
     </div>
     <!-- End experience -->
-    
+
     <!-- Education -->
     <div class="section education">
       <h3>{{ gettext('cv.education') }}</h3>
@@ -195,6 +213,8 @@
               <dd>{{ gettext('cv.computer.languages') }}</dd>
               <dt>{{ gettext('cv.computer.web-framework') }}</dt>
               <dd>{{ gettext('cv.computer.web-frameworks') }}</dd>
+              <dt>{{ gettext('cv.computer.ops') }}</dt>
+              <dd>{{ gettext('cv.computer.ops-tools') }}</dd>
               <dt>{{ gettext('cv.computer.os') }}</dt>
               <dd>{{ gettext('cv.computer.os-list') }}</dd>
               <dt>{{ gettext('cv.computer.sysadmin') }}</dt>
