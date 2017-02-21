@@ -115,7 +115,7 @@ msgstr "Concordia"
 
 #: tpl/cv.html:108
 msgid "cv.pod.responsibilities.help-students"
-msgstr "Aider les étudiants avec leur devoir"
+msgstr "Aider les étudiants avec leurs travaux"
 
 #: tpl/cv.html:115
 msgid "cv.consulting.title"
@@ -267,7 +267,7 @@ msgstr "Langages"
 
 #: tpl/cv.html:236
 msgid "cv.languages"
-msgstr "Anglais et français lus, écrits et parlés couramment."
+msgstr "Bilingue anglais et français."
 
 #: tpl/cv.html:244
 msgid "cv.projects"
