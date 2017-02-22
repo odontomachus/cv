@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-20 21:14-0500\n"
+"POT-Creation-Date: 2017-02-21 21:50-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,251 +21,251 @@ msgstr ""
 msgid "html.title"
 msgstr ""
 
-#: tpl/cv.html:28
+#: tpl/cv.html:26
 msgid "cv.personal.city"
 msgstr ""
 
-#: tpl/cv.html:34
+#: tpl/cv.html:32
 msgid "cv.interests"
 msgstr ""
 
-#: tpl/cv.html:37
+#: tpl/cv.html:35
 msgid "content.intro"
 msgstr ""
 
-#: tpl/cv.html:43
+#: tpl/cv.html:41
 msgid "cv.experience"
 msgstr ""
 
-#: tpl/cv.html:46
+#: tpl/cv.html:44
 msgid "cv.foodie.sre.title"
 msgstr ""
 
-#: tpl/cv.html:47
+#: tpl/cv.html:45
 msgid "cv.current"
 msgstr ""
 
-#: tpl/cv.html:50
+#: tpl/cv.html:48
 msgid "cv.foodie"
 msgstr ""
 
-#: tpl/cv.html:53 tpl/cv.html:71 tpl/cv.html:89 tpl/cv.html:106 tpl/cv.html:123
-#: tpl/cv.html:142
+#: tpl/cv.html:51 tpl/cv.html:69 tpl/cv.html:87 tpl/cv.html:104 tpl/cv.html:121
+#: tpl/cv.html:140
 msgid "cv.experience.key.responsibilities"
 msgstr ""
 
-#: tpl/cv.html:55
+#: tpl/cv.html:53
 msgid "cv.foodie.platform"
 msgstr ""
 
-#: tpl/cv.html:56
+#: tpl/cv.html:54
 msgid "cv.foodie.architecture"
 msgstr ""
 
-#: tpl/cv.html:57
+#: tpl/cv.html:55
 msgid "cv.foodie.development"
 msgstr ""
 
-#: tpl/cv.html:64
+#: tpl/cv.html:62
 msgid "cv.canadavisa.developer.title"
 msgstr ""
 
-#: tpl/cv.html:68
+#: tpl/cv.html:66
 msgid "cv.canadavisa"
 msgstr ""
 
-#: tpl/cv.html:73
+#: tpl/cv.html:71
 msgid "cv.canadavisa.migrate"
 msgstr ""
 
-#: tpl/cv.html:74
+#: tpl/cv.html:72
 msgid "cv.canadavisa.forum"
 msgstr ""
 
-#: tpl/cv.html:75
+#: tpl/cv.html:73
 msgid "cv.canadavisa.leader"
 msgstr ""
 
-#: tpl/cv.html:82
+#: tpl/cv.html:80
 msgid "cv.clac.sysadmin.title"
 msgstr ""
 
-#: tpl/cv.html:86
+#: tpl/cv.html:84
 msgid "cv.clac"
 msgstr ""
 
-#: tpl/cv.html:91
+#: tpl/cv.html:89
 msgid "cv.clac.sysadmin.manage-computers"
 msgstr ""
 
-#: tpl/cv.html:92
+#: tpl/cv.html:90
 msgid "cv.clac.sysadmin.help-students"
 msgstr ""
 
-#: tpl/cv.html:99
+#: tpl/cv.html:97
 msgid "cv.pod.title"
 msgstr ""
 
-#: tpl/cv.html:103 tpl/cv.html:186
+#: tpl/cv.html:101 tpl/cv.html:184
 msgid "cv.concordia"
 msgstr ""
 
-#: tpl/cv.html:108
+#: tpl/cv.html:106
 msgid "cv.pod.responsibilities.help-students"
 msgstr ""
 
-#: tpl/cv.html:115
+#: tpl/cv.html:113
 msgid "cv.consulting.title"
 msgstr ""
 
-#: tpl/cv.html:119
+#: tpl/cv.html:117
 msgid "cv.consulting.palm"
 msgstr ""
 
-#: tpl/cv.html:125
+#: tpl/cv.html:123
 msgid "cv.consulting.palm.back-end"
 msgstr ""
 
-#: tpl/cv.html:126
+#: tpl/cv.html:124
 msgid "cv.consulting.palm.maintain"
 msgstr ""
 
-#: tpl/cv.html:127
+#: tpl/cv.html:125
 msgid "cv.consulting.palm.api"
 msgstr ""
 
-#: tpl/cv.html:134
+#: tpl/cv.html:132
 msgid "cv.ew.title"
 msgstr ""
 
-#: tpl/cv.html:138
+#: tpl/cv.html:136
 msgid "cv.ew"
 msgstr ""
 
-#: tpl/cv.html:144
+#: tpl/cv.html:142
 msgid "cv.ew.experience.drupal"
 msgstr ""
 
-#: tpl/cv.html:145
+#: tpl/cv.html:143
 msgid "cv.ew.experience.cloud"
 msgstr ""
 
-#: tpl/cv.html:146
+#: tpl/cv.html:144
 msgid "cv.ew.experience.high-availability"
 msgstr ""
 
-#: tpl/cv.html:156
+#: tpl/cv.html:154
 msgid "cv.education"
 msgstr ""
 
-#: tpl/cv.html:160
+#: tpl/cv.html:158
 msgid "cv.education.mcgill"
 msgstr ""
 
-#: tpl/cv.html:164
+#: tpl/cv.html:162
 msgid "cv.education.bsc"
 msgstr ""
 
-#: tpl/cv.html:167
+#: tpl/cv.html:165
 msgid "cv.education.major"
 msgstr ""
 
-#: tpl/cv.html:173
+#: tpl/cv.html:171
 msgid "cv.education.champlain"
 msgstr ""
 
-#: tpl/cv.html:177
+#: tpl/cv.html:175
 msgid "cv.education.dec"
 msgstr ""
 
-#: tpl/cv.html:180
+#: tpl/cv.html:178
 msgid "cv.education.ib"
 msgstr ""
 
-#: tpl/cv.html:190
+#: tpl/cv.html:188
 msgid "cv.education.masters-courses"
 msgstr ""
 
-#: tpl/cv.html:195
+#: tpl/cv.html:193
 msgid "cv.education.compiler-design"
 msgstr ""
 
-#: tpl/cv.html:196
+#: tpl/cv.html:194
 msgid "cv.education.nlu"
 msgstr ""
 
-#: tpl/cv.html:197
+#: tpl/cv.html:195
 msgid "cv.education.statistical-nlp"
 msgstr ""
 
-#: tpl/cv.html:198
+#: tpl/cv.html:196
 msgid "cv.education.semantic-web"
 msgstr ""
 
-#: tpl/cv.html:207
+#: tpl/cv.html:205
 msgid "cv.computer"
 msgstr ""
 
-#: tpl/cv.html:212
+#: tpl/cv.html:210
 msgid "cv.computer.language"
 msgstr ""
 
-#: tpl/cv.html:213
+#: tpl/cv.html:211
 msgid "cv.computer.languages"
 msgstr ""
 
-#: tpl/cv.html:214
+#: tpl/cv.html:212
 msgid "cv.computer.web-framework"
 msgstr ""
 
-#: tpl/cv.html:215
+#: tpl/cv.html:213
 msgid "cv.computer.web-frameworks"
 msgstr ""
 
-#: tpl/cv.html:216
+#: tpl/cv.html:214
 msgid "cv.computer.ops"
 msgstr ""
 
-#: tpl/cv.html:217
+#: tpl/cv.html:215
 msgid "cv.computer.ops-tools"
 msgstr ""
 
-#: tpl/cv.html:218
+#: tpl/cv.html:216
 msgid "cv.computer.os"
 msgstr ""
 
-#: tpl/cv.html:219
+#: tpl/cv.html:217
 msgid "cv.computer.os-list"
 msgstr ""
 
-#: tpl/cv.html:220
+#: tpl/cv.html:218
 msgid "cv.computer.sysadmin"
 msgstr ""
 
-#: tpl/cv.html:221
+#: tpl/cv.html:219
 msgid "cv.computer.sysadmin-tools"
 msgstr ""
 
-#: tpl/cv.html:222
+#: tpl/cv.html:220
 msgid "cv.computer.version-control"
 msgstr ""
 
-#: tpl/cv.html:223
+#: tpl/cv.html:221
 msgid "cv.computer.version-controls"
 msgstr ""
 
-#: tpl/cv.html:232
+#: tpl/cv.html:230
 msgid "cv.language"
 msgstr ""
 
-#: tpl/cv.html:236
+#: tpl/cv.html:234
 msgid "cv.languages"
 msgstr ""
 
-#: tpl/cv.html:244
+#: tpl/cv.html:242
 msgid "cv.projects"
 msgstr ""
 
-#: tpl/cv.html:248
+#: tpl/cv.html:246
 msgid "cv.project-summary"
 msgstr ""

@@ -2,14 +2,14 @@ body {
     background-color: white;
     font-size: 12pt;
     margin: 0cm;
-    width: 100%;
     line-height: 1.3;
-    font-family: Georgia, 'EB Garamond', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h3 {
     font-size: 2.5rem;
     font-weight: bold;
+    font-family: 'Noto Serif', serif;
 }
 
 .section, .personal {
@@ -21,10 +21,33 @@ h3 {
     page-break-before: always;
 }
 
+.container {width: 100%}
+
 @page {
-    size: US-Letter;
-    margin: 2cm 1cm 2cm 1cm;
+    size: A4;
 }
+
+a {
+    white-space: nowrap;
+}
+
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
 
 div.row.bottom-breath {
     margin-bottom: 0.5em;
@@ -34,6 +57,11 @@ li {
     list-style: none;
     margin: 0mm 0mm 0mm 8mm;
     line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .right-align {
@@ -60,5 +88,6 @@ ul, dl, ol {
 }
 
 .personal .name {
+    font-family: 'Noto Serif', serif;
     font-weight: bold;
 }
